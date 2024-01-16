@@ -15,10 +15,10 @@ public class Main {
 
         List<Delivery> deliveries = readDeliveriesFromCSV(deliveryPath);
 
-//        findMatchesTeamsPlayedPerYear(matches);
-//        findMatchesWonByTeams(matches);
+       findMatchesTeamsPlayedPerYear(matches);
+       findMatchesWonByTeams(matches);
         int year = 2016;
-//        findExtraRunsConcededPerTeamIn2016(matches,deliveries,year);
+       findExtraRunsConcededPerTeamIn2016(matches,deliveries,year);
         findTopEconomicalBowlerIn2015(matches,deliveries,2015);
 
 
